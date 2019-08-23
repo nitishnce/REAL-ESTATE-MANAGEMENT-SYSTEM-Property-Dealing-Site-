@@ -1,0 +1,88 @@
+#k1{border: 1px solid #d4d9e3;
+    color: #6d7b98;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px 0;
+    padding: 14px 10px;
+    width: 100%;
+    }
+    
+   .user-dashboard .tb tr td  {
+    
+    margin-left: 5px;
+     padding:10px;
+     padding-bottom: 0px;
+    font-weight: bold;
+    background: #0e1a35;
+    color:whitesmoke;
+    
+}
+.user-dashboard .tb tr td input {
+    font-size:20px;width:100%;
+    color:black;font-weight: 600;
+}
+.user-dashboard .tb tr{
+    padding:10px;
+}
+.user-dashboard .tb{
+    border: 7px groove #5584ff;
+    font-size: 30px;
+    
+    margin-top: 20px;
+}
+th{
+    color: #0e1a35;
+}
+@media only screen and (max-device-width:696px){
+   .user-dashboard .hek .tb{
+        font-size: 18px;
+        
+    }
+    .user-dashboard .tb tr td input {
+    font-size:14px;width:100%;
+}
+    
+    
+}
+
+@media only screen and (max-device-width:462px){
+   .user-dashboard .hek .tb{
+        font-size: 10px;
+        
+    }
+    #sb{font-size:7px;}
+     .user-dashboard .tb tr td input {
+    font-size:7px;width:100%;
+}
+    
+    
+}
+@media (max-width:710px){
+    table{
+        white-space: inherit;
+    }
+    
+}
+
+@media (max-width:769px){
+    table{
+        font-size: 10px;
+        
+    }
+    
+    
+}
+@media (max-width:440px)
+{
+    #lk th{
+        padding:2px;
+    }
+    #lk tr td{
+        padding:2px;
+    }
+}
+
+.tbl{
+    margin-top: 50px;
+}
+

@@ -1,0 +1,40 @@
+
+ .a_u h1{
+   text-align: center;
+    background-color: #218d21;
+    color: #ffffff;
+}
+.a_u li{
+    font-size: 120%;
+}
+.container .t_c h1{
+   text-align: center;
+    background-color: #218d21;
+    color: #ffffff;
+}
+
+.a_u ul {
+    padding-left: 20px;
+    line-height :2em ;
+}
+.container .t_c p {
+        
+    line-height :2em ;
+}
+@media (max-width:835px){
+    p,ul,b,h1,h2,h3{
+        font-size:80%;
+    }
+}
+
+@media (max-width:768px){
+    p,ul,b,h1,h2,h3{
+        font-size:70%;
+    }
+}
+
+@media (max-width:320px){
+    p,ul,b,h1,h3,h2{
+        font-size:60%;
+    }
+}

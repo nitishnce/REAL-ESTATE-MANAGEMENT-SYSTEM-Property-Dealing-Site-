@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>FORM | KNECT</title>
+
+  <link rel="shortcut icon" href="imgages/ico/favicon.ico">
+  <link rel="icon" href="imgages/ico/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/switchery.min.css">
+  <script type="text/javascript" src="js/switchery.min.js"></script>
+  <link rel="shortcut icon" href="images/ico/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    
+    
+    
+    
+    
+  <div id="wrapper">
+      <a href="index.jsp" ><img src="logo.png" class="img-responsive" style="margin-left:44%;"/></a>
+  <h1> Registration Form</h1>
+  <a href="Login.jsp" id="as">Login</a>
+  
+  <form action="store" method="post">
+  
+  <div class="col-3">
+    <label>
+      User Name
+      <input placeholder="Enter the User Name"  required="" id="skills" name="UName" tabindex="1">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Password
+      <input placeholder="Enter Your Password" required="" type="password" id="experience" name="Password" tabindex="2">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+     Address
+      <input placeholder="Enter Your Address" required="" id="experience" name="Address" tabindex="3">
+    </label>
+  </div>
+      <div class="col-3">
+    <label>
+      Profession
+      <input placeholder="Enter Your Profession" required="" id="experience" name="Profession" tabindex="4">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Contact no.
+      <input placeholder="Enter Your Contact no." required="" id="experience" name="Contact" tabindex="5">
+    </label>
+    </div>
+  
+  <div class="col-3">
+    <label>
+   E-Mail
+   <input placeholder="Enter Your E-Mail" id="name" required="" type="email" name="Email" tabindex="6">
+    </label>
+  </div>
+ 
+  
+  <div class="col-submit">
+    <button class="submitbtn">Submit Form</button>
+  </div>
+  
+  </form>
+  </div>
+<script type="text/javascript">
+var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+
+elems.forEach(function(html) {
+  var switchery = new Switchery(html);
+});
+</script>
+</body>
+</html>
